@@ -1,0 +1,135 @@
+.logo-web {
+  width: 57px;
+  height: 40px;
+}
+
+.icon-search {
+  width: 20px;
+  height: 20px;
+}
+.top-bar {
+
+  background-color: white;
+  margin-top: -10px;
+  margin-left:-10px ;
+  margin-right: -10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right: 120px;
+  padding-left: 100px;
+}
+
+.top-bar-1 {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.top-bar-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+
+}
+
+.top-bar-2 div {
+  display: flex;
+  height: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-left: 95px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-bar-2 div:hover {
+  cursor: pointer;
+}
+
+.top-bar-2-a {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgb(128, 128, 137);
+  margin-right: 12px;
+  white-space: nowrap;
+}
+.text-field {
+  display: flex;
+  border: rgb(154, 154, 154);
+  border-radius: 8px;
+  align-items: center;
+  border-style: solid;
+  padding-left: 8px;
+  justify-content: center;
+  flex: 15
+}
+
+.input-text-field {
+  border: none;
+
+}
+
+.input-text-field input {
+  border: none;
+  font-size: 14px;
+  width: 599px;
+}
+
+.button-text-field {
+  font-size: 14px;
+
+  color: rgb(10, 104, 255);
+  background-color: white;
+  border: white;
+  border-left: rgb(221, 221, 227);
+  ;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 8px;
+
+}
+
+.icon-home-menu {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 8px;
+}
+
+.menu-bar {
+  display: flex;
+  flex: 7;
+}
+
+.icon-home-menu a {
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(109, 109, 109);
+
+}
+
+.icon-home {
+  width: 24px;
+  height: 24px;
+  margin-right: 4px;
+}
+
+.number_cart {
+  position: absolute;
+        right: -3px;
+        top:-3px;
+  background-color: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 1px 5px ;
+  border-radius: 14px;
+
+}
